@@ -8,6 +8,16 @@
     color: white;
 }
 
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --fonte-principal: "Poppins";
+    --roxo:#C75EED;
+    --amarelo: #fecd2f;
+
+}
+
+
 .body
 {
 
