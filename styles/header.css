@@ -31,7 +31,6 @@
 
 
 .botao {
-   display: flexbox;
     justify-content: space-between;
 }
 .conteiner__imagem {
