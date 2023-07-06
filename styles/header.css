@@ -15,6 +15,7 @@
 .cabecalho-imagem {
     width: 400px;
     height: 250px;
+    justify-content: end;
 }
 
 
