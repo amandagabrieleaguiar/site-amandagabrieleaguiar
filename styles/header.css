@@ -30,7 +30,7 @@
 
 
 .conteiner {
-   display: flexbox;
+   display: inline-block;
     justify-content: space-between;
 }
 
