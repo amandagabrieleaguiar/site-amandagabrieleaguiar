@@ -30,7 +30,7 @@
 
 
 .botao {
-   display: inline-block;
+   display: flexbox;
     justify-content: space-between;
 }
 .conteiner__imagem {
