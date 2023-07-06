@@ -29,14 +29,22 @@
 }
 
 
-.conteiner {
+.botao {
    display: inline-block;
     justify-content: space-between;
 }
-
 .conteiner__imagem {
     padding: 1em;
 }
+.conteiner__botao:checked~.lista__menu {
+    display: block;
+
+}
+.conteiner__botao {
+    display: none;
+}
+
+
 
 .lista__menu {
     display: none;
@@ -60,11 +68,3 @@ color: var(--roxo);
 
 }
 
-.conteiner__botao:checked~.lista__menu {
-    display: block;
-
-}
-
-.conteiner__botao {
-    display: none;
-}
