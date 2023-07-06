@@ -1,4 +1,3 @@
-
 .cabecalho {
     display: inline;
     justify-content: space-between;
@@ -33,13 +32,16 @@
 .botao {
     justify-content: space-between;
 }
+
 .conteiner__imagem {
     padding: 1em;
 }
+
 .conteiner__botao:checked~.lista__menu {
     display: block;
 
 }
+
 .conteiner__botao {
     display: none;
 }
@@ -58,8 +60,8 @@
     padding: 1em;
 }
 
-.lista__menu-link{
-color: var(--roxo);
+.lista__menu-link {
+    color: var(--roxo);
 }
 
 .lista__menu-titulo {
@@ -67,4 +69,3 @@ color: var(--roxo);
     color: var(--amarelo);
 
 }
-
