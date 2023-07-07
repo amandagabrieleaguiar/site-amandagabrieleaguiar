@@ -83,8 +83,8 @@
 
 .fotos_div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* Define 3 colunas com larguras iguais */
+    grid-template-columns: repeat(2, 1fr);
+    /* Define 2 colunas com larguras iguais */
     grid-gap: 10px;
     /* Espaçamento entre as fotos */
 }
