@@ -15,8 +15,12 @@
     width: 400px;
     height: 250px;
     padding: 1em;
-    float: right;
+    float: left;
 
+}
+
+.div-img{
+    
 }
 
 
@@ -88,3 +92,4 @@
     grid-gap: 10px;
     /* Espaçamento entre as fotos */
 }
+
