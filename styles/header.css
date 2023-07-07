@@ -74,4 +74,5 @@
 .fotos{
     display: flexbox;
     justify-content: first baseline;
+    width: 65vw;
 }
