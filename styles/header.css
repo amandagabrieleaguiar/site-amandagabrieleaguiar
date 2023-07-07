@@ -62,6 +62,7 @@
 
 .lista__menu-link {
     color: var(--roxo);
+    font-weight: 700;
 }
 
 .lista__menu-titulo {
