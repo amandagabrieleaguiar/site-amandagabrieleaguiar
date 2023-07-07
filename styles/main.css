@@ -3,7 +3,7 @@ display: flex;
 justify-content: space-between;
 }
 
-.fotoxs {
+.fotos {
     width: 100%;
     /* Largura da foto */
     height: 100px;
@@ -11,7 +11,7 @@ justify-content: space-between;
     /* Adicione estilos adicionais para a foto, como margens, bordas, etc. */
 }
 
-.fotoxs_div {
+.fotos_div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* Define 2 colunas com larguras iguais */
@@ -19,14 +19,3 @@ justify-content: space-between;
     /* Espaçamento entre as fotos */
 }
 
-.section_fotos{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fotos{
-    flex-basis: calc(50.33% - 10px); /* Define a largura das fotos com base na porcentagem desejada */
-    margin: 5px; /* Espaçamento entre as fotos */
-    height: 100px; /* Altura da foto */
-    /* Adicione estilos adicionais para a foto, como margens, bordas, etc. */
-}
