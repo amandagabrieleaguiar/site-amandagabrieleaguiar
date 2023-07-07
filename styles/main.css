@@ -2,3 +2,20 @@
 display: flex;
 justify-content: space-between;
 }
+
+.fotos {
+    width: 100%;
+    /* Largura da foto */
+    height: 100px;
+    /* Altura da foto */
+    /* Adicione estilos adicionais para a foto, como margens, bordas, etc. */
+}
+
+.fotos_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Define 2 colunas com larguras iguais */
+    grid-gap: 10px;
+    /* Espaçamento entre as fotos */
+}
+
