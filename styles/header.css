@@ -71,8 +71,12 @@
 }
 
 
-.fotos{
+.fotos {
     display: flexbox;
     justify-content: first baseline;
+    width: 65vw;
+}
+
+.fotos_div {
     width: 65vw;
 }
