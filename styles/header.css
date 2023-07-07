@@ -69,3 +69,9 @@
     color: var(--amarelo);
 
 }
+
+
+.fotos{
+    display: flexbox;
+    justify-content: first baseline;
+}
