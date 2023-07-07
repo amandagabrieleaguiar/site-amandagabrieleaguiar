@@ -14,7 +14,7 @@
 .cabecalho-imagem {
     width: 400px;
     height: 250px;
-    float: right;
+    float:inline-end
 
 }
 
