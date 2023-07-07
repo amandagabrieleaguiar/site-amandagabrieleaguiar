@@ -6,7 +6,7 @@ justify-content: space-between;
 .fotos {
     width: 80%;
     /* Largura da foto */
-    height: 200px;
+    height: auto;
     /* Altura da foto */
     /* Adicione estilos adicionais para a foto, como margens, bordas, etc. */
 }
