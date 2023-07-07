@@ -11,7 +11,7 @@ justify-content: space-between;
     /* Adicione estilos adicionais para a foto, como margens, bordas, etc. */
 }
 
-.fotos_div {
+.fotoxs_div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* Define 2 colunas com larguras iguais */
