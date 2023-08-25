@@ -2,187 +2,103 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <title>Amanda Gabriele Aguiar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Colégio Cristóvão Colombo</title>
 </head>
 
 <body class="corpo">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
 
-  <header class="cabecalho">
+    <header class="cabecalho">
 
-   
+        <h1 class="cabecalho-tituloh1"> <img class="cabecalho-imagem" src="Logo CECC.png" alt="logo da escola">
+        </h1>
+        <ul class="cabecalho__menu">
+            <h1 class="cabecalho__menu-texto">Colégio Estadual Cristóvão Colombo</h1> <!--//h1,h2,h3(...)-->
+            <li class="cabecalho__menu-item"> SOBRE A ESCOLA</li>
+            <li class="cabecalho__menu-item"> PROFESSORES</li>
+        </ul>
 
-    <div class="botao">
-      <input type="checkbox" id="menu" class="conteiner__botao">
-      <label for="menu">
-        <span class="cabecalho__menu conteiner__imagem"> </span>
-      </label>
-      <ul class="lista__menu">
-        <li class="lista__menu-titulo">CONTEUDOS</li>
-        <li class="lista__menu-item"><a class="lista__menu-link" href="#">SOBRE MIN</a></li>
-        <li class="lista__menu-item"><a class="lista__menu-link" href="#">FOTOS</a></li>
-        <li class="lista__menu-item"><a class="lista__menu-link" href="#">VIDEOS</a></li>
-        <li class="lista__menu-item"><a class="lista__menu-link" href="#">LOJA</a></li>
-        <li class="lista__menu-item"><a class="lista__menu-link" href="#">REDES SOCIAIS</a></li>
-      </ul>
-    </div>
+    </header>
 
-    <div class="div-img"><img class="cabecalho-imagem" src="logo amanda.jpg" alt="logo da escola">
-      <h1>Artista</h1>
-      <h2>Godoy Music Produções Musical </h2>
-      <h3>@eduardogodoyofficial </h3>
-      <h4>Cantora e Compositora </h4>
-    </div>
+    <main>
 
-  </header>
+        <section class="escola">
+            <div class="escola__div"> <!--Os elementos se alinham textos para esquerda-->
+                <h2 class="escola__titulo">Colégio Estadual Cristóvão Colombo</h2>
+                <p class="escola__paragrafo">O Colégio Cristóvão Colombo.........</p>
+            </div>
 
-  <main>
-    <section class="section_fotos">
-      <div class="div_fotos">
-        <img src="img/img1.jpeg" alt="fotoamanda1" class="fotos">
-        <img src="img/img2.jpeg" alt="fotoamanda1" class="fotos">
-        <img src="img/img3.jpeg" alt="fotoamanda1" class="fotos">
-        <img src="img/img4.jpeg" alt="fotoamanda1" class="fotos">
-        <img src="img/img5.jpeg" alt="fotoamanda1" class="fotos">
-      </div>
-    </section>
+            <img class="escola__imagem" src="CECC escola.png" alt="logo da escola">
 
-    <section class="videos">
-      <div class="videos_div">
+        </section>
 
-        <video controls poster="videos/video1.mp4">
-          <source src="videos/video1.mp4" type="video/mp4">
-          <source src="videos/video1.mp4" type="video/webm">
-          <source src="videos/video1.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video1.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video2.mp4">
-          <source src="videos/video2.mp4" type="video/mp4">
-          <source src="videos/video2.mp4" type="video/webm">
-          <source src="videos/video2.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video2.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video3.mp4">
-          <source src="videos/video3.mp4" type="video/mp4">
-          <source src="videos/video3.mp4" type="video/webm">
-          <source src="videos/video3.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video3.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video4.mp4">
-          <source src="videos/video4.mp4" type="video/mp4">
-          <source src="videos/video4.mp4" type="video/webm">
-          <source src="videos/video4.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video4.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video5.mp4">
-          <source src="videos/video5.mp4" type="video/mp4">
-          <source src="videos/video5.mp4" type="video/webm">
-          <source src="videos/video5.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video5.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video6.mp4">
-          <source src="videos/video6.mp4" type="video/mp4">
-          <source src="videos/video6.mp4" type="video/webm">
-          <source src="videos/video6.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video6.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video7.mp4">
-          <source src="videos/video7.mp4" type="video/mp4">
-          <source src="videos/video7.mp4" type="video/webm">
-          <source src="videos/video7.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video7.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-
-        <video controls poster="videos/video11.mp4">
-          <source src="videos/video11.mp4" type="video/mp4">
-          <source src="videos/video11.mp4" type="video/webm">
-          <source src="videos/video11.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video11.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video12.mp4">
-          <source src="videos/video12.mp4" type="video/mp4">
-          <source src="videos/video12.mp4" type="video/webm">
-          <source src="videos/video12.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video12.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-        <video controls poster="videos/video13.mp4">
-          <source src="videos/video13.mp4" type="video/mp4">
-          <source src="videos/video13.mp4" type="video/webm">
-          <source src="videos/video13.mp4" type="video/ogg">
-          <object>
-            <embed src="videos/video13.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
-              allowscriptaccess="always">
-          </object>
-          Formato não suportado
-        </video>
-      </div>
-    </section>
-
-    <section class="professores">
-      <div class="professores__div">
-        <img class="professores__div-imagem" src="imgamanda.jpg" alt="foto da amanda">
-        <h3 class="professores__div-titulo"> AMANDA</h3>
-        <p class="professores__div-paragrafo">Compositora/Cantora/Digital Influencer</p>
-      </div>
-    </section>
-
-  </main>
+        <section class="professores">
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
+            <div class="professores__div">
+                <img class="professores__div-imagem" src="prof. thiago.png" alt="foto do professor">
+                <h3 class="professores__div-titulo"> Thiago Cherpinski</h3>
+                <p class="professores__div-paragrafo">Programação/Robotica</p>
+            </div>
 
 
-  <footer>
-    <div align=center>
-      <a href='https://contador.s12.com.br'>
-        <img src='https://contador.s12.com.br/img-c55Z5073WDcadzZ3-46.gif' border='0' alt='contador de acesso grátis'>
-      </a>
-      <script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=c55Z5073WDcadzZ3'>
-      </script>
-    </div>
+        </section>
 
-  </footer>
+    </main>
+
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
