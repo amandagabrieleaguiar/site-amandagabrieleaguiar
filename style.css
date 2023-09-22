@@ -17,7 +17,7 @@ body{
 
 .cabecalho {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: rgb(223, 42, 162);
     font-size: 21px;
