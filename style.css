@@ -19,9 +19,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(230, 16, 212);
     font-size: 21px;
-    color: rgb(221, 22, 161);
+    color: white;
     padding: 24px 0;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
