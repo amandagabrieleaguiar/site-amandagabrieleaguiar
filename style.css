@@ -124,7 +124,9 @@
     padding: 20px;
     justify-items: center;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .divfotos {
