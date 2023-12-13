@@ -111,3 +111,22 @@
     width: 120px;
     height: auto;
 }
+
+
+.secfotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    font-family: 'Sono', sans-serif;
+    background-color: #273447;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    gap: 20px
+}
+
+.divfotos {
+    text-align: center;
+}
